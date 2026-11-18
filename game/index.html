@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Star Shepherd — guide lost star-lings home to the constellation pen and bark the void wolves away. A tiny original browser game.">
+<link rel="icon" href="data:,">
+<title>Star Shepherd</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #07031a;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap {
+    width: min(1280px, 100vw);
+    padding: 8px;
+  }
+  canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: #0b0626;
+    box-shadow: 0 0 60px rgba(91, 42, 134, 0.55);
+    touch-action: none;
+    cursor: crosshair;
+  }
+  .hint {
+    color: #b9a8e8;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 4px 0;
+    line-height: 1.5;
+  }
+  .hint b { color: #ffd76a; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <canvas id="game" width="1280" height="720" role="img" aria-label="Star Shepherd game field"></canvas>
+    <noscript><p class="hint">Star Shepherd needs JavaScript to play.</p></noscript>
+    <p class="hint"><b>Star Shepherd</b> — Move: WASD / arrows / mouse / touch &nbsp;•&nbsp; Bark: Space or click &nbsp;•&nbsp; P pause &nbsp;•&nbsp; M mute &nbsp;•&nbsp; Guide star-lings into the glowing pen. Bark to scare off void wolves.</p>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
