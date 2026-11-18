@@ -1,5 +1,11 @@
 # Star Shepherd
 
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/Zallan03/star-shepherd/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/Zallan03/star-shepherd/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
+An entry for the [make.fun best-game-01 bounty](https://make.fun/bounty/best-game-01).
+
 You are a shepherd of the stars. Lost star-lings — small glowing golden
 orbs — drift through deep space, and void wolves hunt them. Your shepherd
 ship carries a lantern whose gentle light pulls nearby star-lings toward
